@@ -1,0 +1,18 @@
+{
+  "name": "tsnoob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev":"nodemon --config nodemon.config.json src/app.ts",
+    "build":"tsc"
+  },
+  "keywords": [],
+  "author": "Shakil Babu",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
